@@ -8,6 +8,8 @@
 
 Refactor a website to add accessibility. Use semantic HTML, add accessible attributes to the image elements, use concise descriptive titles.
 
+[Link to Live Site](https://kmac5000.github.io/code_refactoring/)
+
 ![Preview](./assets/images/Screenshot%202022-06-23%20155746.jpg)
 
 ## <ins>Table of Contents</ins>
