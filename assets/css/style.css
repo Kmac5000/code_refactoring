@@ -1,143 +1,159 @@
+/* Information for margins for the whole page, using *   */
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
+/* background for the body of the html */
 body {
-    background-color: #d9dcd6;
+  background-color: #d9dcd6;
 }
 
+/* header class information, padding, font to use, background color, and text color */
 .header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
 }
 
+/* information to display in class h1 in the header class */
 .header h1 {
-    display: inline-block;
-    font-size: 48px;
+  display: inline-block;
+  font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
+/* * information to display in class header and h1 and class seo in the span in the header */
+*/ .header h1 .seo {
+  color: #d9dcd6;
 }
 
+/* info for the nav within the header class */
 .header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
 
+/* info for the ul in the header class */
+/* takes away the dots in the list */
 .header ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
+/* info for the nav, ul, li in the header class */
+/* diplaying everything inline across the header, with margin on the left side only */
 .header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+  display: inline-block;
+  margin-left: 25px;
 }
 
+/* color and decoration details for all anchor tags */
 a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
+/* font size for all p tags */
 p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
+/* info for the hero class, which is the big image, giving size to the element */
 .hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-    
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
+/* class float left position and margin */
 .float-left {
-    float: left;
-    margin-right: 25px;
+  float: left;
+  margin-right: 25px;
 }
 
+/* class right position and margin */
 .float-right {
-    float: right;
-    margin-left: 25px;
+  float: right;
+  margin-left: 25px;
 }
 
+/* content class display size, style, and margin */
 .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
 }
 
+/* benefits class position, size, font, font */
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
 }
 
+/* benefit lead class margin and color */
 .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
+  margin-bottom: 32px;
+  color: #ffffff;
 }
 
-
+/* h3 in benefit lead class margin and text positioning */
 .benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
-
-
+/* position and size for the img tag in benfit lead class */
 .benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
-
-
+/* class optimization position size, font, bg color, text color, and margin */
 .optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
 }
 
+/* height of the img tag within the optimization class */
 .optimization img {
-    max-height: 200px;
+  max-height: 200px;
 }
 
-
-
+/* font size and margin information  for the h2 tag within the optimization class */
 .optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
-
-
+/* footer class font, text positionins, padding */
 .footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
 }
 
-.footnote{
-    font-size: 20px;
+/* font size of text within the footnote class, which is in the footer */
+.footnote {
+  font-size: 20px;
 }
-
